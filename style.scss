@@ -1,0 +1,86 @@
+$Red: hsl(0, 78%, 62%);
+$Cyan: hsl(180, 62%, 55%);
+$Orange: hsl(34, 97%, 64%);
+$Blue: hsl(212, 86%, 64%);
+
+$VeryDarkBlue: hsl(234, 12%, 34%);
+$GrayishBlue: hsl(229, 6%, 66%);
+$VeryLightGray: hsl(0, 0%, 98%);
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size:15px;
+    background-color: $VeryLightGray;
+    padding-top: 50px;
+    min-height: 100vh;
+}
+
+main{
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+    h1{
+        text-align: center;
+        font-size: 2em;
+        font-weight: 200;
+        }
+    span{
+        display: block;
+        font-weight: 600;
+        color: $VeryDarkBlue;
+        }
+    p{
+        max-width:720px;
+        margin-left: auto;
+        margin-right: auto;
+        color: $GrayishBlue;
+        }
+    section{
+        article:nth-child(1){
+            transform: translateY(50%);
+            border-top-color:$Cyan;
+        }
+        article:nth-child(2){
+            border-top-color:$Red;
+        }
+        article:nth-child(3){
+            transform: translateY(50%);
+            border-top-color:$Orange;
+        }
+        article:nth-child(4){
+            border-top-color:$Blue;
+        }
+    }
+    
+    article{
+        width:25%;
+        height:250px;
+        background: white;
+        position: relative;
+        display: inline-block;
+        text-align: left;
+        padding: 15px;
+        color: $GrayishBlue;
+        border-top: 5px solid $Cyan;
+        border-radius: 5px;
+        box-shadow: 0px 10px 20px rgba($GrayishBlue,0.5);
+        margin: 15px;
+        h2{
+            margin-bottom: 5px;
+            color: $VeryDarkBlue;
+        }
+        img{
+            position: absolute;
+            bottom: 15px;
+            right: 15px;
+            }
+        } 
+    }   
+
+footer{
+    padding: 50px;
+}
+
+

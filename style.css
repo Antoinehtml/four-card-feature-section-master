@@ -1,0 +1,73 @@
+/* line 11, /Users/antoine/Desktop/four-card-feature-section-master/style.scss */
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  background-color: #fafafa;
+  padding-top: 50px;
+  min-height: 100vh; }
+
+/* line 19, /Users/antoine/Desktop/four-card-feature-section-master/style.scss */
+main {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; }
+  /* line 24, /Users/antoine/Desktop/four-card-feature-section-master/style.scss */
+  main h1 {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 200; }
+  /* line 29, /Users/antoine/Desktop/four-card-feature-section-master/style.scss */
+  main span {
+    display: block;
+    font-weight: 600;
+    color: #4c4e61; }
+  /* line 34, /Users/antoine/Desktop/four-card-feature-section-master/style.scss */
+  main p {
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #a3a5ae; }
+  /* line 41, /Users/antoine/Desktop/four-card-feature-section-master/style.scss */
+  main section article:nth-child(1) {
+    transform: translateY(50%);
+    border-top-color: #45d3d3; }
+  /* line 45, /Users/antoine/Desktop/four-card-feature-section-master/style.scss */
+  main section article:nth-child(2) {
+    border-top-color: #ea5353; }
+  /* line 48, /Users/antoine/Desktop/four-card-feature-section-master/style.scss */
+  main section article:nth-child(3) {
+    transform: translateY(50%);
+    border-top-color: #fcaf4a; }
+  /* line 52, /Users/antoine/Desktop/four-card-feature-section-master/style.scss */
+  main section article:nth-child(4) {
+    border-top-color: #549ef2; }
+  /* line 57, /Users/antoine/Desktop/four-card-feature-section-master/style.scss */
+  main article {
+    width: 25%;
+    height: 250px;
+    background: white;
+    position: relative;
+    display: inline-block;
+    text-align: left;
+    padding: 15px;
+    color: #a3a5ae;
+    border-top: 5px solid #45d3d3;
+    border-radius: 5px;
+    box-shadow: 0px 10px 20px rgba(163, 165, 174, 0.5);
+    margin: 15px; }
+    /* line 70, /Users/antoine/Desktop/four-card-feature-section-master/style.scss */
+    main article h2 {
+      margin-bottom: 5px;
+      color: #4c4e61; }
+    /* line 74, /Users/antoine/Desktop/four-card-feature-section-master/style.scss */
+    main article img {
+      position: absolute;
+      bottom: 15px;
+      right: 15px; }
+
+/* line 82, /Users/antoine/Desktop/four-card-feature-section-master/style.scss */
+footer {
+  padding: 50px; }
+
+/*# sourceMappingURL=style.css.map */
